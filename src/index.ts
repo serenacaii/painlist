@@ -7,7 +7,7 @@ import type { Event } from './types';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
-  console.log("poop");
+  console.log("pain");
   const calendarElement = document.querySelector<HTMLDivElement>('[data-element="calendar"]');
   if (!calendarElement) return;
 
