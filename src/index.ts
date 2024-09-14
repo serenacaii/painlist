@@ -8,6 +8,7 @@ import type { Event } from './types';
 window.Webflow ||= [];
 window.Webflow.push(() => {
   console.log("pain");
+  document.body.style.backgroundColor = "red";
   const calendarElement = document.querySelector<HTMLDivElement>('[data-element="calendar"]');
   if (!calendarElement) return;
 
